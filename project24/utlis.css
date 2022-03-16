@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@font-face {
+  font-family: 'futura-bold';
+  src: url("../fonts/Futura-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  line-height: 1.2;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  color: #5c5c77;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575px) {
+  h1, .h1 {
+    font-size: 45px;
+  }
+  h2, .h2 {
+    font-size: 30px;
+  }
+  h3, .h3 {
+    font-size: 20px;
+  }
+  h4, .h4 {
+    font-size: 18px;
+  }
+  h5, .h5 {
+    font-size: 16px;
+  }
+  h6, .h6 {
+    font-size: 14px;
+  }
+  .newsletter-block {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .overflow-md-hidden {
+    overflow: hidden;
+  }
+  .hero-section {
+    padding: 250px 0 200px;
+  }
+  .feature-blocks {
+    margin-top: 60px;
+    padding: 50px;
+  }
+  .feature-blocks h3 {
+    font-size: 25px;
+  }
+}
+
+
+@media (max-width: 1400px) {
+  .feature-blocks {
+    padding-right: 10%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .feature-blocks {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  .feature-blocks h3 {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+/* <i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-weibo"></i>
+<i class="fa-brands fa-github"></i> */
